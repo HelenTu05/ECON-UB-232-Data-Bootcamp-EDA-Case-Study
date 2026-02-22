@@ -21,7 +21,8 @@ The analysis covers:
 ```
 ├── EDA_Loan_Default_CaseStudy.ipynb   # Main Jupyter Notebook (full EDA)
 ├── EDA_Loan_Default.pptx              # Academic presentation
-├── README.md                       
+├── README.md
+├── requirements.txt                         
 └── data/                              # Place your data files here (see below)
     ├── application_data.csv
     ├── previous_application.csv
@@ -47,14 +48,14 @@ This project uses the **Home Credit Default Risk** dataset with 3 files:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/ht2604/ECON-UB-232-Data-Bootcamp-EDA-Case-Study.git
+cd ECON-UB-232-Data-Bootcamp-EDA-Case-Study
 ```
 
 ### 2. Install dependencies
 
 ```bash
-pip install pandas numpy matplotlib seaborn jupyter
+pip install -r requirements.txt
 ```
 
 ### 3. Add the data files
