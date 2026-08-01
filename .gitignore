@@ -1,0 +1,21 @@
+# Raw data — download from Kaggle, see data/README.md
+data/application_data.csv
+data/previous_application.csv
+*.zip
+
+# Notebook / Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
